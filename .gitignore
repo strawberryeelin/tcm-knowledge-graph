@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Node.js
+node_modules/
+
+# Private data
+data
+
+# Pipeline outputs
+pipeline/**/output/*
+!pipeline/**/output/.gitkeep
+
+# API keys
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
